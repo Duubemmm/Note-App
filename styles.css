@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hanken Grotesk, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(13, 13, 39);
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.h1-container{
+    display: flex;
+    margin-inline:2.5rem;
+    border-radius: 30px;
+
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 3.8em;
+    color:rgb(53, 53, 112);
+}
+
+.h1-underline{
+    width:17rem;
+    height: 0.2rem;
+    color: whitesmoke;
+    background-color:rgb(191, 211, 243); ;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+img{
+    width: 3rem;
+    height:3rem;
+    display: inline-block;
+}
+
+button{
+    background: linear-gradient(120deg, rgb(104, 116, 145), rgb(40, 41, 40));
+    /* border: 12px solid rgb(59, 85, 151); */
+    color: rgb(191, 211, 243);
+    font-size: 1.4em;
+    font-weight: 600;
+    border-radius: 40px;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 0.5rem 4rem;
+}
+
+button img{
+    height: 2.3rem;
+    display: inline-block;
+}
+.input-box{
+    width: 30rem;
+    height: 12rem;
+    padding: 20px;
+    margin: 20px 0;
+    background-color:rgb(155, 190, 247);;
+    color: #181717;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.input-box img{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    height: 2.5rem;
+    cursor: pointer;
+}
